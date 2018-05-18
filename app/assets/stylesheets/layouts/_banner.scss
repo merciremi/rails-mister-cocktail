@@ -1,0 +1,62 @@
+.wrapper {
+  background: linear-gradient(to right bottom, rgba(106,216,106,0.5), rgba(5, 25, 55, 0.5)), url('https://source.unsplash.com/1600x900?cocktails');
+  color: white;
+  text-align: center;
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.full-height {
+  height: calc(100vh - 140px);
+}
+
+.banner h1 {
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.banner p {
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.btn-add {
+  color: white;
+  margin-top: 50px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: $green;
+}
+
+.btn-add:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-treehouse {
+  display: block;
+  color: white;
+  margin-top: 50px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: $green;
+  transition: background 0.3s ease;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
